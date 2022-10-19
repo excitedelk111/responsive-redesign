@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Responsive Redesign</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Playfair+Display:800" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Ultra" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+  <!-- Responsive Redesign
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h1>Responsive Redesign</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%;">
+        <h3>Overview</h3>
+        <p>
+          The following article walks you through the process of analyzing and identifying
+          usability flaws in an existing interface, creating low-fidelity and high-fidelity prototypes 
+          for various screen sizes, and building a responsive website based on those prototypes.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Selecting an Interface
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>Selecting an Interface</h3>
+        <p>
+          I wanted to pick an interface that I knew very well and used quite often so that the 
+          effort I would be putting into redesigning it would be well worth it and so that I had
+          a sufficiently large dataset of usability concerns that I could try to solve.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- The Interface
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>The Interface</h3>
+        <!-- screenshots -->
+        <div class="row">
+          <div class="column">
+            <div class="image-wrapper">
+              <img src="images/website-screenshot-1.png" style="max-width: 70%;">
+            </div>
+            <div class="image-wrapper">
+              <img src="images/website-screenshot-2.png" style="max-width: 70%;">
+            </div>
+          </div>
+        </div>
+        <!-- caption -->
+        <div class="row">
+          <div class="column" style="margin-top: 3%">
+            <p>
+              Brown's Computer Science Conecntration Requirements page!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Usability Concerns
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>Addressing Usability Concerns</h3>
+        <h4>The New User's Usability Concerns</h4>
+        <p>
+          This is someone who is either considering applying to Brown or a first/second year 
+          student who wants to look at the expected workload for the Computer Science concentration.
+          Learnability, i.e., how easy is the interface to use, is their primary concern. However, 
+          the current concentration requirements webpage does not do a great job of addressing this 
+          or working with the conceptual model of someone trying to understand the expected workload 
+          for the Computer Science concentration.
+        </p>
+        <section class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="new-user-1" src="images/new-user-1.jpg"/>
+              <img id="new-user-3" src="images/new-user-3.jpg" />
+              <img id="new-user-4" src="images/new-user-4.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#new-user-1"></a>
+              <a href="#new-user-3"></a>
+              <a href="#new-user-4"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%">Addressing The New User's Usability Concerns</h4>
+        <section class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slide-4" src="images/slide-4.jpg"/>
+              <img id="slide-5" src="images/slide-5.jpg" />
+              <img id="slide-6" src="images/slide-6.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
+              <a href="#slide-6"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%">The Casual User's Usability Concerns</h4>
+        <p>
+          This is a Brown student who is bored and wants to get a sense of what the 
+          Computer Science concentration workload is like or a newly declared student who 
+          doesn’t yet care too much about requirements.  Memorability, i.e., how easy is 
+          it to recall what to do, is their primary concern.  However, the current concentration
+          requirements webpage does not do a great job of addressing this or working with the 
+          conceptual model of someone just occasionally visiting the website. 
+        </p>
+        <section class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="casual-user-1" src="images/casual-user-1.jpg"/>
+              <img id="casual-user-2" src="images/casual-user-2.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#casual-user-1"></a>
+              <a href="#casual-user-2"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%">Addressing The Casual User's Usability Concerns</h4>
+        <section class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slide-4" src="images/slide-4.jpg"/>
+              <img id="slide-5" src="images/slide-5.jpg" />
+              <img id="slide-6" src="images/slide-6.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
+              <a href="#slide-6"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%">The Frequent User's Usability Concerns</h4>
+        <p>
+          This is a Brown student who is a declared Computer Science concentrator. They have 
+          visited the website many times and know how to get around. Their primary purpose is
+          to see both how many credits they need as well as what those credits can be and they
+          will use this as a single source of truth. However, the current concentration requirements
+          webpage does not do a great job of addressing this or working with the conceptual model of 
+          someone trying to make sure they will graduate on time.
+        </p>
+        <section class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="frequent-user-1-2-3-4" src="images/frequent-user-1-2-3-4.jpg"/>
+              <img id="frequent-user-5" src="images/frequent-user-5.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#frequent-user-1-2-3-4"></a>
+              <a href="#frequent-user-5"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%">Addressing The Frequent User's Usability Concerns</h4>
+        <section class="slider-container" style="margin-bottom: 3%">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slide-4" src="images/slide-4.jpg"/>
+              <img id="slide-5" src="images/slide-5.jpg" />
+              <img id="slide-6" src="images/slide-6.jpg" />
+            </div>
+            <div class="slider-nav">
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
+              <a href="#slide-6"></a>
+            </div>
+          </div>
+        </section>
+        <h4 style="margin-top: 3%; margin-bottom: 2%">Accessibility Concerns</h4>
+        <div class="image-wrapper" style="margin-bottom: 2%;">
+          <img src="images/accessibility.png" style="max-width: 70%;">
+        </div>
+        <p>
+          WAVE found no errors and just one contrast error. The contrast error had to do with the
+          low resolution (and probably not been updated in years) header that this page had. The alerts
+          virtually all had to do with small text and it essentially tagged every bit of text on the page. 
+          This is a valid concern. The majority of other alerts had to do with miscellaneous missing alt texts
+          on images, however, none of those images were actually displayed, or the images were simply square 
+          white blocks atop a white background so it is unclear why those assets are even present. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Personas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>Personas</h3>
+        <p>These personas are based on overarching trends I observed amongst all the users I interviewed, 
+          not characteristics I observed from a specific individual. I've created a four-quadrant empathy map,
+          describing what users think, feel, say, and do for one archetypal character that will represent part
+          of the spectrum of users I observed. </p>
+      </div>
+    </div>
+    <!-- Persona 1  -->
+    <div class="row">
+      <div class="column">
+        <h4>Persona 1: Introverted Izzy</h4>
+        <div class="image-wrapper">
+          <img src="images/persona1.png" style="max-width: 70%;">
+        </div>
+        <p style="margin-top: 3%">
+          Izzy is an introvert and likes to avoid unnecessary human interaction when possible. They normally go
+          up to the counter but get nervous and feel awkward about wasting the cashier’s time and order the 
+          standard drink which they don’t actually enjoy. They are reluctant to ask for help when they are not
+          able to figure something out and get flustered very easily. So, they are very happy about being able
+          to use an automated kiosk to order instead of doing so at the counter and take their own sweet time 
+          while feeling very comfortable.
+        </p>
+      </div>
+    </div>
+    <!-- Persona 2  -->
+    <div class="row">
+      <div class="column">
+        <h4>Persona 2: Frustrated Frank</h4>
+        <div class="image-wrapper">
+          <img src="images/persona2.png" style="max-width: 70%;">
+        </div>
+        <p style="margin-top: 3%">
+          Frank is short tempered and not having a good day. Already frustrated, they come to the cafe for a 
+          drink to cool off; but every part of the process seems to not work as it should, frustrating them 
+          even further. They just want to get out of there as fast as they can but they are not able to. They
+          don't read any of the instructions and try to speed through the process while also pressing harder
+          than they should on the touchscreen causing glitches. They are unhappy about the bilingual nature
+          of the menu and the resulting lack of clarity on certain menu items. The lack of explanation on
+          the rewards process and the fact that they are spending so much time on this all contributes to
+          an unpleasant experience.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Storyboarding
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>Storyboarding</h3>
+        <p>This storyboard walks through Introverted Izzy coming to the cafe to order a drink. </p>
+        <div class="image-wrapper">
+          <img src="images/storyboard1.jpg" style="max-width: 90%;">
+        </div>
+        <div class="image-wrapper">
+          <img src="images/storyboard2.jpg" style="max-width: 90%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Conclusion
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 3%">
+        <h3>Conclusion</h3>
+        <p>To summarize this process, I think it's clear that personas and storyboards are powerful 
+          tools that help capture the intricaies and nuances of a user experience in a way that simpler
+          tools like user roles, market segments etc. simply cannot do. Automation in industries like 
+          food are often touted as an unnecessary evil and articles like <a href="https://gizmodo.com/why-self-checkout-is-and-has-always-been-the-worst-1833106695">this one</a> 
+          explain why it could be, as it was for Frustrated Frank, but hopefully Introverted Izzy was
+          a good example of why it could be a blessing to some as well.</p>
+      </div>
+    </div>
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
