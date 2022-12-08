@@ -34,8 +34,8 @@
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 25px;
-  border: solid #222;
-  border-width: 1px;
+  /* border: solid #222; */
+  /* border-width: 1px; */
   box-sizing: border-box; }
 .column,
 .columns {
